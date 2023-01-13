@@ -1,6 +1,6 @@
 import json
 
-with open("res/main.json", 'r') as load_f:
+with open("res/json/main.json", 'r') as load_f:
     load_dict = json.load(load_f)
 author = load_dict['Author']
 version = load_dict['Version']

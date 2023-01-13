@@ -1,5 +1,5 @@
 {
-  "ops": [
+  "series": [
     "1",
     "2",
     "3"
@@ -9,5 +9,11 @@
     "2": "创建一个服务端环境",
     "3": "运行服务端环境",
     "mikufans": ""
+  },
+  "ops": {
+    "1": "download_server_core",
+    "2": "create_servers",
+    "3": "run_servers",
+    "mikufans": "admin"
   }
 }
