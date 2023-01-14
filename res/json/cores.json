@@ -1,0 +1,27 @@
+{
+  "cores": [
+    "minecraft",
+    "spigot",
+    "waterfall"
+  ],
+  "description": {
+    "minecraft": "Minecraft原版服务端，原汁原味，不支持插件哦！小白开服的不二选择！",
+    "spigot": "spigot",
+    "waterfall": "waterfall"
+  },
+  "minecraft": [
+    "1.5",
+    "1.7.10",
+    "1.8.9",
+    "1.12.2",
+    "1.14.4",
+    "1.16.5",
+    "1.18.1",
+    "1.18.2",
+    "1.19",
+    "1.19.2"
+  ],
+  "urls": {
+    "minecraft": "https://bmclapi2.bangbang93.com/version/"
+  }
+}
