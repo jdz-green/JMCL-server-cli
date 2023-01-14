@@ -1,7 +1,7 @@
 # -!- coding: utf-8 -!-
 import json
 
-with open("../res/json/operations.json", 'r', encoding='utf-8') as load_f:
+with open("res/json/operations.json", 'r', encoding='utf-8') as load_f:
     load_dict = json.load(load_f)
 
 
@@ -9,7 +9,7 @@ def operate(num):
     print(num)
 
 
-def init():
+def init_opt():
     opt = load_dict["series"]
     for i in range(len(opt)):
         print("[ %s ]" % opt[i] + ' ' + load_dict["description"][str(opt[i])])
@@ -18,4 +18,4 @@ def init():
 
 
 if __name__ == '__main__':
-    init()
+    init_opt()

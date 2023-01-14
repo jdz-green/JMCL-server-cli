@@ -2,18 +2,25 @@
   "series": [
     "1",
     "2",
-    "3"
+    "3",
+    "4",
+    "5"
   ],
   "description": {
     "1": "下载指定版本服务端主体",
     "2": "创建一个服务端环境",
     "3": "运行服务端环境",
+    "4": "管理服务器设置",
+    "5": "停止服务器",
+    "6": "操作正在运行的服务器",
     "mikufans": ""
   },
   "ops": {
     "1": "download_server_core",
     "2": "create_servers",
     "3": "run_servers",
-    "mikufans": "admin"
+    "4": "manage",
+    "5": "stop_servers",
+    "mikufans": "bishi"
   }
 }
